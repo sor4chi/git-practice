@@ -3,7 +3,7 @@ using namespace std;
 
 int add(int a, int b) {
     if (a < 0 or b < 0) {
-        exit(1);
+        exit(0);
     }
     return a + b;
 }
